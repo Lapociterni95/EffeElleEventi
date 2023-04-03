@@ -3,36 +3,41 @@
     "events":[
         {
             "date": "19/06/2022 to 24/06/2022",
+            "location": "Perugia",
             "title": "13th Torino Workshop on AGB stars",
-            "description": "Perugia",
+            "description": "lorem ipsum decription",
             "btn_label": "Vai al sito dell'evento",
             "btn_link": "https://en.wikipedia.org/wiki/New_Year%27s_Day"
         },
         {
             "date": "02/07/2022 to 08/07/2022",
+            "location": "La Valle di Assisi Resort, Assisi",
             "title": "14TH International conference on plant pathogenic bacteria",
-            "description": "La Valle di Assisi Resort, Assisi",
+            "description": "",
             "btn_label": "Vai al sito dell'evento",
             "btn_link": "https://en.wikipedia.org/wiki/New_Year%27s_Day"
         },
         {
             "date": "05/07/2022 to 08/07/2022",
+            "location": "Politecnico di Bari.",
             "title": "22ND international conference on Web engineering (ICWE)",
-            "description": "Politecnico di Bari.",
+            "description": "lorem ipsum decription",
             "btn_label": "Vai al sito dell'evento",
             "btn_link": "https://en.wikipedia.org/wiki/New_Year%27s_Day"
         },
         {
             "date": "13/09/2022 to 17/09/2022",
+            "location": "VIRTUAL",
             "title": "Diagrams 2022",
-            "description": "VIRTUAL EDITION",
+            "description": "lorem ipsum decription",
             "btn_label": "Vai al sito dell'evento",
             "btn_link": "https://en.wikipedia.org/wiki/New_Year%27s_Day"
         },
         {
             "date": "16/01/2023 to 17/01/2023",
+            "location": "Bressanone",
             "title": "GTTI- MMSP Thematic Meeting 2023 on Multimedia Signal Processing",
-            "description": "Bressanone",
+            "description": "lorem ipsum decription",
             "btn_label": "Vai al sito dell'evento",
             "btn_link": "https://en.wikipedia.org/wiki/New_Year%27s_Day"
         }
