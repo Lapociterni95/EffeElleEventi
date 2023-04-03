@@ -1,13 +1,14 @@
 ---
 export interface Props {
   text: string;
+  dest?: string;
 }
 
-const { text } = Astro.props;
+const { dest, text } = Astro.props;
 ---
 
 <button
   class="mt-4 bg-client-blue text-white px-8 py-2 rounded-xl duration-300 hover:bg-white hover:text-client-blue hover:shadow-md border-client-blue border"
 >
-  <a href="mailto:info@effelle20.it"> {text}</a>
+  <a href={dest !== undefined ? dest : "mailto:info@effelle20.it"}> {text}</a>
 </button>

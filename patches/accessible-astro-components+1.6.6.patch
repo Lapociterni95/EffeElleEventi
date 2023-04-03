@@ -1,5 +1,5 @@
 diff --git a/node_modules/accessible-astro-components/AccordionItem.astro b/node_modules/accessible-astro-components/AccordionItem.astro
-index 468b68a..bd38a1d 100644
+index 468b68a..305fc2a 100644
 --- a/node_modules/accessible-astro-components/AccordionItem.astro
 +++ b/node_modules/accessible-astro-components/AccordionItem.astro
 @@ -1,5 +1,5 @@
@@ -44,7 +44,7 @@ index 468b68a..bd38a1d 100644
    }
 +  .accordion__date-title__container{
 +    display: flex;
-+    flex-direction: row;
++    flex-direction: column;
 +    margin-right: 1rem;
 +  }
 +  @media screen and (max-width: 600px) {
