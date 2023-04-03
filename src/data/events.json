@@ -2,37 +2,37 @@
     "title": "I nostri eventi",
     "events":[
         {
-            "date": "2018-09-08",
-            "title": "Ital-IA 2023",
-            "description": "New Year's Day is the first day of the year, or January 1, in the Gregorian calendar. It is celebrated as a national holiday in many countries around the world, including the United States, Canada, the United Kingdom, and Australia. Many cultures celebrate the event in some manner and the 1st day of January is often marked as a national holiday.",
+            "date": "19/06/2022 to 24/06/2022",
+            "title": "13th Torino Workshop on AGB stars",
+            "description": "Perugia",
             "btn_label": "Vai al sito dell'evento",
             "btn_link": "https://en.wikipedia.org/wiki/New_Year%27s_Day"
         },
         {
-            "date": "2018-08-12",
-            "title": "C1 Building Blocks for Future Chemistry",
-            "description": "New Year's Day is the first day of the year, or January 1, in the Gregorian calendar. It is celebrated as a national holiday in many countries around the world, including the United States, Canada, the United Kingdom, and Australia. Many cultures celebrate the event in some manner and the 1st day of January is often marked as a national holiday.",
+            "date": "02/07/2022 to 08/07/2022",
+            "title": "14TH International conference on plant pathogenic bacteria",
+            "description": "La Valle di Assisi Resort, Assisi",
             "btn_label": "Vai al sito dell'evento",
             "btn_link": "https://en.wikipedia.org/wiki/New_Year%27s_Day"
         },
         {
-            "date": "2018-11-07",
-            "title": "XX Congresso Nazionale della Divisione di Chimica dell'Ambiente e dei Beni Culturali",
-            "description": "New Year's Day is the first day of the year, or January 1, in the Gregorian calendar. It is celebrated as a national holiday in many countries around the world, including the United States, Canada, the United Kingdom, and Australia. Many cultures celebrate the event in some manner and the 1st day of January is often marked as a national holiday.",
+            "date": "05/07/2022 to 08/07/2022",
+            "title": "22ND international conference on Web engineering (ICWE)",
+            "description": "Politecnico di Bari.",
             "btn_label": "Vai al sito dell'evento",
             "btn_link": "https://en.wikipedia.org/wiki/New_Year%27s_Day"
         },
         {
-            "date": "2023-12-09",
-            "title": "XXVIII National Meeting on Medicinal Chemistry (NMMC28)",
-            "description": "New Year's Day is the first day of the year, or January 1, in the Gregorian calendar. It is celebrated as a national holiday in many countries around the world, including the United States, Canada, the United Kingdom, and Australia. Many cultures celebrate the event in some manner and the 1st day of January is often marked as a national holiday.",
+            "date": "13/09/2022 to 17/09/2022",
+            "title": "Diagrams 2022",
+            "description": "VIRTUAL EDITION",
             "btn_label": "Vai al sito dell'evento",
             "btn_link": "https://en.wikipedia.org/wiki/New_Year%27s_Day"
         },
         {
-            "date": "2018-01-01",
-            "title": "49° National Congress of Inorganic Chemistry",
-            "description": "New Year's Day is the first day of the year, or January 1, in the Gregorian calendar. It is celebrated as a national holiday in many countries around the world, including the United States, Canada, the United Kingdom, and Australia. Many cultures celebrate the event in some manner and the 1st day of January is often marked as a national holiday.",
+            "date": "16/01/2023 to 17/01/2023",
+            "title": "GTTI- MMSP Thematic Meeting 2023 on Multimedia Signal Processing",
+            "description": "Bressanone",
             "btn_label": "Vai al sito dell'evento",
             "btn_link": "https://en.wikipedia.org/wiki/New_Year%27s_Day"
         }
