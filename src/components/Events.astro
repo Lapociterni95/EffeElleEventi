@@ -8,7 +8,7 @@ import { Accordion, AccordionItem } from "accessible-astro-components";
     {
       data.events.map((event) => (
         <AccordionItem header={event.date + " / " + event.title}>
-          <div class=" grid md:grid-cols-3">
+          <div class=" grid md:grid-cols-3 gap-y-4">
             <div>
               <p class="text-4xl">{event.date}</p>
             </div>
