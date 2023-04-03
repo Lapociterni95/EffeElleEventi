@@ -1,13 +1,14 @@
 <script>
   import { fade } from "svelte/transition";
   import { onMount } from "svelte";
+  let data;
   let isOpen = false;
 
   const handleCloseMenu = () => {
     isOpen = false;
   };
 
-  onMount(() => {
+  onMount(async () => {
     window.addEventListener("resize", handleCloseMenu);
     return () => {
       window.removeEventListener("resize", handleCloseMenu);
@@ -39,7 +40,7 @@
     transition:fade={{ delay: 50, duration: 100 }}
     class="bg-gray-200 h-[10vh] w-full absolute top-[50vh] left-0 z-[0] shadow-xl text-client-blue text-xl p-4 flex flex-col sm:flex-row justify-between sm:items-center "
   >
-    <a href="mailto:daaa@dadad.com">info@effelleeventi</a>
+    <a href="mailto:daaa@dadad.com">info@....</a>
     <span>+323492423423</span>
   </div>
 

@@ -3,9 +3,9 @@ import OverlayMenu from "./OverlayMenu.svelte";
 ---
 
 <header
-  class="fixed top-0 left-0 w-full px-8 sm:px-12 md:px-20 flex flex-row justify-between items-center py-4 bg-client-blue text-white"
+  class="fixed top-0 left-0 z-[9] w-full px-8 sm:px-12 md:px-20 flex flex-row justify-between items-center py-4 bg-client-blue text-white"
 >
-  <div class="logo relative z-[1]">Logo</div>
+  <div class="logo relative">Logo</div>
   <nav>
     <OverlayMenu client:load>
       <ul
