@@ -42,6 +42,13 @@
     <a href="mailto:daaa@dadad.com">info@effelleeventi</a>
     <span>+323492423423</span>
   </div>
+
+  <div
+    on:click={() => handleCloseMenu()}
+    on:keydown={() => handleCloseMenu()}
+    transition:fade={{ duration: 100 }}
+    class="absolute top-0 left-0 z-[-1] w-[100vw] h-[100vh] bg-gray-900 opacity-20"
+  />
 {:else}
   <div class="hidden sm:block">
     <slot />
