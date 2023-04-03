@@ -1,4 +1,5 @@
 ---
+import Button from "./Button.astro";
 export interface Props {
   title: string;
   body: string;
@@ -18,7 +19,5 @@ const { title, body } = Astro.props;
       {body}
     </p>
   </div>
-  <button class="mt-4 bg-client-blue text-white px-8 py-2 rounded-xl"
-    >Scopri di più</button
-  >
+  <Button text="Scopri di più" />
 </li>

@@ -1,9 +1,10 @@
 ---
 import data from "../data/services.json";
 import Card from "./Card.astro";
+import Button from "./Button.astro";
 ---
 
-<section class="py-12 md:w-3/4 xl:w-1/2">
+<section class="py-12 w-full">
   <header class="pb-8">
     <h2 class="text-2xl text-client-blue font-bold">
       {data.title}
@@ -13,9 +14,7 @@ import Card from "./Card.astro";
     <p>
       {data.description}
     </p>
-    <button>
-      {data.button}
-    </button>
+    <Button text={data.button} />
   </div>
 </section>
 <ul
