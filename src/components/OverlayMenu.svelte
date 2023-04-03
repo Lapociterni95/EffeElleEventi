@@ -31,7 +31,7 @@
 {#if isOpen}
   <div
     transition:fade={{ duration: 100 }}
-    class="p-4 w-[100vw] h-[50vh] text-white absolute top-0 left-0 z-[0] flex flex-col items-center justify-center bg-client-blue "
+    class="p-8 w-[100vw] h-[50vh] text-white absolute top-0 left-0 z-[0] flex flex-col items-center justify-center bg-client-blue"
   >
     <slot />
   </div>
