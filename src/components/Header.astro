@@ -1,9 +1,16 @@
+---
+import OverlayMenu from "./OverlayMenu.svelte";
+---
+
 <header
   class="px-4 sm:px-12 md:px-20 flex flex-row justify-between items-center py-4 bg-client-blue text-white"
 >
-  <div class="logo">LOGO</div>
+  <div class="logo">Logo</div>
   <nav>
-    <ul class="flex flex-row gap-x-4 items-center">
+    <div class="flex sm:hidden">
+      <OverlayMenu client:load />
+    </div>
+    <ul class="hidden sm:flex flex-row gap-x-4 items-center">
       <li>
         <a href="#">Chi siamo</a>
       </li>

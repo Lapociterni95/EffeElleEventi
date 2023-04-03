@@ -2,12 +2,10 @@
 import Layout from "../layouts/Layout.astro";
 import Jumbo from "../components/Jumbo.astro";
 import Services from "../components/Services.astro";
-import AniButton from "../components/AniButton.svelte";
 ---
 
 <Layout title="Welcome to Astro.">
   <main class="px-4 sm:px-12 md:px-20">
-    <AniButton color={"blue"} client:load />
     <Jumbo />
     <Services />
   </main>
