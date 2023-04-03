@@ -1,0 +1,23 @@
+---
+import data from "../data/events.json";
+import { Accordion, AccordionItem } from "accessible-astro-components";
+---
+
+<ul class="border-2 border-client-blue">
+  {
+    data.events.map((event) => (
+      <li class="border-2 border-orange-600 grid grid-cols-3">
+        <div>
+          <p>{event.date}</p>
+        </div>
+        <div>
+          <h2>{event.title}</h2>
+          <p>{event.description}</p>
+        </div>
+        <div>
+          <a href="">Vai al congresso</a>
+        </div>
+      </li>
+    ))
+  }
+</ul>
