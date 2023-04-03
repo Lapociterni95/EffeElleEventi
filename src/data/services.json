@@ -1,5 +1,19 @@
 {
     "title": "I nostri servizi",
     "description": "Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione",
-    "button": "Contattaci"
+    "button": "Contattaci",
+    "cards":[
+        {
+            "title": "Eventi",
+            "description":"Fare networking oggi significa creare una rete di relazioni significative, che possano aiutare a migliorare la propria carriera o a intraprendere un’attività imprenditoriale in collaborazione con altri."
+        },
+        {
+            "title": "Conferenze internazionali",
+            "description":"Creiamo e ideiamo il tuo evento dalla base fino alla sua conclusione. Vogliamo che il tuo evento sia completo, professionale ma anche con dei momenti di svago."
+        },
+        {
+            "title": "Riunioni di lavoro",
+            "description":"Ogni riunione è il prodotto di un lavoro di gruppo nel senso dell’impiego di un’energia comune per raggiungere uno scopo determinato. EFFE ELLE E20 propone un servizio di management nel settore di riunioni di lavoro per organizzare al meglio i tuoi meeting aziendali."
+        }
+    ]
 }

@@ -1,31 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
 import Jumbo from "../components/Jumbo.astro";
 import Services from "../components/Services.astro";
+import AniButton from "../components/AniButton.svelte";
 ---
 
 <Layout title="Welcome to Astro.">
   <main class="px-4 sm:px-12 md:px-20">
+    <AniButton color={"blue"} client:load />
     <Jumbo />
     <Services />
-    <ul role="list" class="flex flex-row gap-x-4">
-      <Card
-        href="https://docs.astro.build/"
-        title="Documentation"
-        body="Learn how Astro works and explore the official API docs."
-      />
-      <Card
-        href="https://docs.astro.build/"
-        title="Documentation"
-        body="Learn how Astro works and explore the official API docs."
-      />
-      <Card
-        href="https://docs.astro.build/"
-        title="Documentation"
-        body="Learn how Astro works and explore the official API docs."
-      />
-    </ul>
   </main>
 </Layout>
 

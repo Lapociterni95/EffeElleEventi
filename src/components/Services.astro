@@ -1,10 +1,11 @@
 ---
 import data from "../data/services.json";
+import Card from "./Card.astro";
 ---
 
-<section>
-  <header>
-    <h2>
+<section class="py-12 md:w-3/4 xl:w-1/2">
+  <header class="pb-8">
+    <h2 class="text-2xl text-client-blue font-bold">
       {data.title}
     </h2>
   </header>
@@ -17,3 +18,15 @@ import data from "../data/services.json";
     </button>
   </div>
 </section>
+<ul
+  role="list"
+  class="grid grid-cols md:grid-cols-2 xl:grid-cols-3 gap-x-4 gap-y-4 pb-12"
+>
+  {
+    data.cards.map((service) => (
+      <>
+        <Card title={service.title} body={service.description} />
+      </>
+    ))
+  }
+</ul>
