@@ -4,7 +4,7 @@ import data from "../data/jumbo.json";
 
 <section class="py-12 md:w-3/4 xl:w-1/2">
   <header class="pb-8">
-    <h1 class="text-2xl text-client-blue font-bold">
+    <h1 class="text-2xl text-client-blue font-bold text-gradient">
       {data.quote}
     </h1>
     <span class="font-light">{data.author}</span>
@@ -15,3 +15,16 @@ import data from "../data/jumbo.json";
     </p>
   </div>
 </section>
+
+<style>
+  :root {
+    --accent-gradient: linear-gradient(15deg, #0821ff, #93b7ff, #4bc0ee);
+  }
+  .text-gradient {
+    background-image: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 230%;
+    background-position: 0%;
+  }
+</style>

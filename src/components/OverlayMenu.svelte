@@ -1,26 +1,49 @@
 <script>
   import { fade } from "svelte/transition";
-  export let isOpen = false;
+  import { onMount } from "svelte";
+  let isOpen = false;
+
+  const handleCloseMenu = () => {
+    isOpen = false;
+  };
+
+  onMount(() => {
+    window.addEventListener("resize", handleCloseMenu);
+    return () => {
+      window.removeEventListener("resize", handleCloseMenu);
+    };
+  });
 </script>
 
 <button
-  class="relative z-[22]"
+  class="relative z-[22] flex sm:hidden"
   on:click={() => {
     isOpen = !isOpen;
   }}
 >
   {#if !isOpen}
-    <span>open </span>
+    <span class="uppercase">menu </span>
   {:else}
-    <span>close</span>
+    <span class="uppercase">close</span>
   {/if}
 </button>
 
 {#if isOpen}
   <div
     transition:fade={{ duration: 100 }}
-    class="w-[100vw] h-[100vh] bg-red-800 text-white absolute top-0 left-0 z-[1] flex flex-col items-center justify-center"
+    class="p-4 w-[100vw] h-[50vh] text-white absolute top-0 left-0 z-[0] flex flex-col items-center justify-center bg-client-blue "
   >
-    <span>overlay menu content</span>
+    <slot />
+  </div>
+  <div
+    transition:fade={{ delay: 50, duration: 100 }}
+    class="bg-gray-200 h-[10vh] w-full absolute top-[50vh] left-0 z-[0] shadow-xl text-client-blue text-xl p-4 flex flex-col sm:flex-row justify-between sm:items-center "
+  >
+    <a href="mailto:daaa@dadad.com">info@effelleeventi</a>
+    <span>+323492423423</span>
+  </div>
+{:else}
+  <div class="hidden sm:block">
+    <slot />
   </div>
 {/if}

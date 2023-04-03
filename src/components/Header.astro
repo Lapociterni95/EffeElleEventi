@@ -3,23 +3,24 @@ import OverlayMenu from "./OverlayMenu.svelte";
 ---
 
 <header
-  class="px-4 sm:px-12 md:px-20 flex flex-row justify-between items-center py-4 bg-client-blue text-white"
+  class="fixed top-0 left-0 w-full px-4 sm:px-12 md:px-20 flex flex-row justify-between items-center py-4 bg-client-blue text-white"
 >
-  <div class="logo">Logo</div>
+  <div class="logo relative z-[1]">Logo</div>
   <nav>
-    <div class="flex sm:hidden">
-      <OverlayMenu client:load />
-    </div>
-    <ul class="hidden sm:flex flex-row gap-x-4 items-center">
-      <li>
-        <a href="#">Chi siamo</a>
-      </li>
-      <li>
-        <a href="#">Servizi</a>
-      </li>
-      <li>
-        <a href="#">Eventi</a>
-      </li>
-    </ul>
+    <OverlayMenu client:load>
+      <ul
+        class="flex flex-col sm:flex-row w-full gap-y-4 gap-x-4 text-4xl sm:text-xl"
+      >
+        <li class="border-b border-white sm:border-none pb-4">
+          <a href="#">Chi siamo</a>
+        </li>
+        <li class="border-b border-white sm:border-none pb-4">
+          <a href="#">Servizi</a>
+        </li>
+        <li class="border-b border-white sm:border-none pb-4">
+          <a href="#">Eventi</a>
+        </li>
+      </ul>
+    </OverlayMenu>
   </nav>
 </header>
