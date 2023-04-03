@@ -1,14 +1,27 @@
 ---
 import data from "../data/general.json";
+import Logo from "./Logo.astro";
 ---
 
 <footer
-  class="mt-20 px-4 sm:px-12 md:px-20 bg-gray-200 text-client-blue min-h-[40vh] flex flex-col items-center justify-center text-4xl uppercase"
+  class="mt-20 px-6 sm:px-12 md:px-20 bg-gray-200 text-client-blue min-h-[40vh] sm:min-h-[unset] flex flex-col md:flex-row justify-between py-12"
 >
-  Footer
+  <Logo color={"fill-client-blue"} />
+  <div class="text-lg">
+    <p>
+      {data.legalAddress}
+    </p>
+    <p>
+      {data.city}
+    </p>
+    <p>
+      {data.phone}
+    </p>
+    <a href={"mailto:" + data.email}>{data.email}</a>
+  </div>
 </footer>
 <div
-  class="min-h-[40px] bg-client-blue w-full text-white flex flex-row items-center justify-center"
+  class="min-h-[40px] py-2 bg-client-blue w-full text-white flex flex-row items-center justify-center px-6 sm:px-12 md:px-20 text-center text-sm"
 >
   P.IVA: {data.vat} - Sede legale: {data.legalAddress} - Capitale sociale: {
     data.capital

@@ -8,7 +8,7 @@ const { dest, text } = Astro.props;
 ---
 
 <button
-  class="mt-4 bg-client-blue text-white px-8 py-2 rounded-xl duration-300 hover:bg-white hover:text-client-blue hover:shadow-md border-client-blue border"
+  class="mt-4 bg-client-blue text-white px-8 py-2 rounded-xl duration-300 hover:bg-white hover:text-client-blue hover:shadow-md border-client-blue border text-lg sm:text-xl"
 >
   <a href={dest !== undefined ? dest : "mailto:info@effelle20.it"}> {text}</a>
 </button>

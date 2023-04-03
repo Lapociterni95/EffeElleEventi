@@ -32,16 +32,16 @@
 {#if isOpen}
   <div
     transition:fade={{ duration: 100 }}
-    class="p-8 w-[100vw] h-[50vh] text-white absolute top-0 left-0 z-[0] flex flex-col items-center justify-center bg-client-blue"
+    class="p-6 w-[100vw] h-[70vh] text-white absolute top-0 left-0 z-[0] flex flex-col items-center justify-center bg-client-blue"
   >
     <slot />
   </div>
   <div
-    transition:fade={{ delay: 50, duration: 100 }}
-    class="bg-gray-200 h-[10vh] w-full absolute top-[50vh] left-0 z-[0] shadow-xl text-client-blue text-xl p-4 flex flex-col sm:flex-row justify-between sm:items-center "
+    transition:fade={{ duration: 100 }}
+    class="bg-gray-200 h-[10vh] w-full absolute top-[70vh] left-0 z-[0] shadow-xl text-client-blue text-xl p-4 flex flex-col sm:flex-row justify-between sm:items-center gap-y-2"
   >
-    <a href="mailto:daaa@dadad.com">info@....</a>
-    <span>+323492423423</span>
+    <a href="mailto:info@effelle20.it">info@effelle20.it</a>
+    <span>+39 3516008574</span>
   </div>
 
   <div
