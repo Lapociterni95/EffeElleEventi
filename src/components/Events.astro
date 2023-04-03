@@ -4,10 +4,15 @@ import { Accordion, AccordionItem } from "accessible-astro-components";
 ---
 
 <section class="my-8 pb-12">
+  <header class="pb-8">
+    <h2 class="text-3xl text-client-blue font-bold">
+      {data.title}
+    </h2>
+  </header>
   <Accordion>
     {
       data.events.map((event) => (
-        <AccordionItem header={event.date + " / " + event.title}>
+        <AccordionItem header={event.date + " | " + event.title}>
           <div class=" grid md:grid-cols-3 gap-y-4">
             <div>
               <p class="text-4xl">{event.date}</p>
