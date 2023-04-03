@@ -6,12 +6,12 @@ import Button from "./Button.astro";
 
 <section class="py-12 w-full">
   <header class="pb-8">
-    <h2 class="text-2xl text-client-blue font-bold">
+    <h2 class="text-3xl text-client-blue font-bold">
       {data.title}
     </h2>
   </header>
-  <div>
-    <p>
+  <div class="flex flex-col gap-y-4">
+    <p class="text-lg columns-2">
       {data.description}
     </p>
     <Button text={data.button} />
