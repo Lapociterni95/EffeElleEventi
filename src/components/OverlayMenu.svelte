@@ -38,7 +38,7 @@
   </div>
   <div
     transition:fade={{ duration: 100 }}
-    class="bg-gray-200 h-[10vh] w-full absolute top-[70vh] left-0 z-[0] shadow-xl text-client-blue text-xl p-4 flex flex-col sm:flex-row justify-between sm:items-center gap-y-2"
+    class="bg-gray-300 w-full absolute top-[70vh] left-0 z-[0] shadow-xl text-client-blue text-lg sm:text-xl p-4 flex flex-col sm:flex-row justify-between sm:items-center gap-y-2"
   >
     <a href="mailto:info@effelle20.it">info@effelle20.it</a>
     <span>+39 3516008574</span>
