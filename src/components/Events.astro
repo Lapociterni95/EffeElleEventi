@@ -3,25 +3,27 @@ import data from "../data/events.json";
 import { Accordion, AccordionItem } from "accessible-astro-components";
 ---
 
-<Accordion>
-  {
-    data.events.map((event) => (
-      <AccordionItem header={event.date + " / " + event.title}>
-        <div class=" grid md:grid-cols-3">
-          <div>
-            <p class="text-4xl">{event.date}</p>
+<section class="my-8 pb-12">
+  <Accordion>
+    {
+      data.events.map((event) => (
+        <AccordionItem header={event.date + " / " + event.title}>
+          <div class=" grid md:grid-cols-3">
+            <div>
+              <p class="text-4xl">{event.date}</p>
+            </div>
+            <div class="pb-4 flex flex-col gap-y-4">
+              <h2 class="font-bold text-4xl">{event.title}</h2>
+              <p>{event.description}</p>
+            </div>
+            <div class="flex flex-col items-center justify-center">
+              <button class="mt-4 bg-client-blue text-white px-8 py-2 rounded-xl duration-300 hover:bg-white hover:text-client-blue hover:shadow-md border-client-blue border">
+                <a href="">Vai al congresso</a>
+              </button>
+            </div>
           </div>
-          <div class="pb-4 flex flex-col gap-y-4">
-            <h2 class="font-bold text-xl">{event.title}</h2>
-            <p>{event.description}</p>
-          </div>
-          <div class="flex flex-col items-center justify-center">
-            <button class="mt-4 bg-client-blue text-white px-8 py-2 rounded-xl duration-300 hover:bg-white hover:text-client-blue hover:shadow-md border-client-blue border">
-              <a href="">Vai al congresso</a>
-            </button>
-          </div>
-        </div>
-      </AccordionItem>
-    ))
-  }
-</Accordion>
+        </AccordionItem>
+      ))
+    }
+  </Accordion>
+</section>
