@@ -4,27 +4,34 @@ import placeholder from "../assets/placeholder.png";
 import Button from "./Button.astro";
 ---
 
-<section class="my-12 shadow-xl">
-  <div class="relative">
-    <Picture
-      src={placeholder}
-      widths={[400, 800, 1200]}
-      aspectRatio="16:9"
-      alt="descriptive text"
-    />
-    <h2 class="absolute top-8 left-8 text-4xl text-white z-[1] font-bold">
-      Chi siamo <br />
-      <span class="font-light">Who we are</span>
-    </h2>
-  </div>
-  <div class="bg-client-beige p-8 sm:p-20">
-    <p class="text-xl sm:text-2xl">
-      Sam Altman is the CEO of OpenAI, the company behind GPT-4, ChatGPT,
-      DALL-E, Codex, and many other state-of-the-art AI technologies. Please
-      support this podcast by checking out our sponsors
-    </p>
-    <div class="mt-8">
-      <Button text="Conosciamoci meglio" />
+<section id="chi-siamo" class="pt-[calc(120px+2em)]">
+  <div class="shadow-xl">
+    <div class="relative">
+      <Picture
+        src={placeholder}
+        widths={[400, 800, 1200]}
+        aspectRatio="16:9"
+        alt="descriptive text"
+        sizes="(max-width: 639px) 100%, (max-width: 1079px) 100%, 100%"
+      />
+      <h2 class="absolute top-8 left-8 text-4xl text-white z-[1] font-bold">
+        Chi siamo <br />
+        <span class="font-light">Who we are</span>
+      </h2>
+    </div>
+    <div class="bg-client-beige p-8 sm:p-20">
+      <p class="text-xl sm:text-2xl">
+        EFFE ELLE E20 è una Agenzia di produzione eventi aziendali che offre una
+        gamma completa di servizi e si impegna a creare eventi indimenticabili
+        per una varietà di clienti e settori diversi. Uniamo la conoscenza
+        derivante da anni di esperienza all'ispirazione e all'ingegno; questo ci
+        permette di trasformare le location per regalare ai tuoi ospiti
+        un'esperienza davvero unica. Contattaci e inizieremo subito a lavorare
+        insieme per organizzare l'evento perfetto per te.
+      </p>
+      <div class="mt-8">
+        <Button text="Conosciamoci meglio" />
+      </div>
     </div>
   </div>
 </section>
