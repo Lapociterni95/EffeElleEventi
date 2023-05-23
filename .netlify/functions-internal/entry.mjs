@@ -1,0 +1,30 @@
+import * as adapter from '@astrojs/netlify/netlify-functions.js';
+import { renderers } from './renderers.mjs';
+import 'mime';
+import 'cookie';
+import { g as deserializeManifest } from './chunks/astro.179d3b66.mjs';
+import 'kleur/colors';
+import 'slash';
+import 'path-to-regexp';
+import 'html-escaper';
+import 'string-width';
+
+const _page0 = () => import('./chunks/pages/endpoint.js.927ba041.mjs');
+const _page1 = () => import('./chunks/pages/index.astro.dc76e0a0.mjs');
+const _page2 = () => import('./chunks/pages/404.astro.49de2f7b.mjs').then(n => n._);const pageMap = new Map([["node_modules/@astrojs/image/dist/endpoint.js", _page0],["src/pages/index.astro", _page1],["src/pages/404.astro", _page2],]);
+
+const _manifest = Object.assign(deserializeManifest({"adapterName":"@astrojs/netlify/functions","routes":[{"file":"","links":[],"scripts":[],"styles":[],"routeData":{"type":"endpoint","route":"/_image","pattern":"^\\/_image$","segments":[[{"content":"_image","dynamic":false,"spread":false}]],"params":[],"component":"node_modules/@astrojs/image/dist/endpoint.js","pathname":"/_image","prerender":false,"_meta":{"trailingSlash":"ignore"}}},{"file":"","links":[],"scripts":[],"styles":[{"type":"external","src":"/EffeElleEventi/_astro/404.cfbc3bdd.css"},{"type":"external","src":"/EffeElleEventi/_astro/index.66891313.css"}],"routeData":{"route":"/","type":"page","pattern":"^\\/$","segments":[],"params":[],"component":"src/pages/index.astro","pathname":"/","prerender":false,"_meta":{"trailingSlash":"ignore"}}},{"file":"","links":[],"scripts":[],"styles":[{"type":"external","src":"/EffeElleEventi/_astro/404.cfbc3bdd.css"}],"routeData":{"route":"/404","type":"page","pattern":"^\\/404\\/?$","segments":[[{"content":"404","dynamic":false,"spread":false}]],"params":[],"component":"src/pages/404.astro","pathname":"/404","prerender":false,"_meta":{"trailingSlash":"ignore"}}}],"site":"https://giansake.github.io","base":"/EffeElleEventi/","markdown":{"drafts":false,"syntaxHighlight":"shiki","shikiConfig":{"langs":[],"theme":"github-dark","wrap":false},"remarkPlugins":[],"rehypePlugins":[],"remarkRehype":{},"gfm":true,"smartypants":true},"pageMap":null,"componentMetadata":[["/Users/giammarcogaudenzi/Desktop/EffeElleEventi/src/pages/404.astro",{"propagation":"none","containsHead":true}],["/Users/giammarcogaudenzi/Desktop/EffeElleEventi/src/pages/index.astro",{"propagation":"none","containsHead":true}]],"renderers":[],"clientDirectives":[["idle","(()=>{var i=t=>{let e=async()=>{await(await t())()};\"requestIdleCallback\"in window?window.requestIdleCallback(e):setTimeout(e,200)};(self.Astro||(self.Astro={})).idle=i;window.dispatchEvent(new Event(\"astro:idle\"));})();"],["load","(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).load=e;window.dispatchEvent(new Event(\"astro:load\"));})();"],["media","(()=>{var s=(i,t)=>{let a=async()=>{await(await i())()};if(t.value){let e=matchMedia(t.value);e.matches?a():e.addEventListener(\"change\",a,{once:!0})}};(self.Astro||(self.Astro={})).media=s;window.dispatchEvent(new Event(\"astro:media\"));})();"],["only","(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).only=e;window.dispatchEvent(new Event(\"astro:only\"));})();"],["visible","(()=>{var r=(s,c,i)=>{let o=async()=>{await(await s())()},n=new IntersectionObserver(e=>{for(let t of e)if(t.isIntersecting){n.disconnect(),o();break}});for(let e=0;e<i.children.length;e++){let t=i.children[e];n.observe(t)}};(self.Astro||(self.Astro={})).visible=r;window.dispatchEvent(new Event(\"astro:visible\"));})();"]],"entryModules":{"\u0000@astrojs-ssr-virtual-entry":"_@astrojs-ssr-virtual-entry.mjs","\u0000@astro-renderers":"renderers.mjs","/node_modules/@astrojs/image/dist/endpoint.js":"chunks/pages/endpoint.js.927ba041.mjs","/src/pages/index.astro":"chunks/pages/index.astro.dc76e0a0.mjs","/Users/giammarcogaudenzi/Desktop/EffeElleEventi/node_modules/@astrojs/image/dist/vendor/squoosh/image-pool.js":"chunks/image-pool.631f5aa0.mjs","@astrojs/svelte/client.js":"_astro/client.c4e17359.js","/Users/giammarcogaudenzi/Desktop/EffeElleEventi/src/components/OverlayMenu.svelte":"_astro/OverlayMenu.c5aa6c27.js","astro:scripts/before-hydration.js":""},"assets":["/EffeElleEventi/_astro/inter-cyrillic-200-normal.87d2e1ba.woff2","/EffeElleEventi/_astro/inter-cyrillic-ext-200-normal.82562199.woff2","/EffeElleEventi/_astro/inter-greek-200-normal.9575e0f8.woff2","/EffeElleEventi/_astro/inter-greek-ext-200-normal.45dafb12.woff2","/EffeElleEventi/_astro/inter-latin-ext-200-normal.4336e69d.woff2","/EffeElleEventi/_astro/inter-latin-200-normal.74885a0c.woff2","/EffeElleEventi/_astro/inter-cyrillic-ext-800-normal.f15d8f83.woff2","/EffeElleEventi/_astro/inter-cyrillic-800-normal.82994ee8.woff2","/EffeElleEventi/_astro/inter-greek-ext-800-normal.bddb6f8e.woff2","/EffeElleEventi/_astro/inter-latin-800-normal.a51ac27d.woff2","/EffeElleEventi/_astro/inter-cyrillic-ext-400-normal.f7666a51.woff2","/EffeElleEventi/_astro/inter-greek-800-normal.fb5de277.woff2","/EffeElleEventi/_astro/inter-latin-ext-800-normal.b6167428.woff2","/EffeElleEventi/_astro/inter-greek-ext-400-normal.d3e30cde.woff2","/EffeElleEventi/_astro/inter-latin-ext-400-normal.64a98f58.woff2","/EffeElleEventi/_astro/inter-latin-400-normal.0364d368.woff2","/EffeElleEventi/_astro/inter-greek-400-normal.2f2d421a.woff2","/EffeElleEventi/_astro/inter-cyrillic-400-normal.e9493683.woff2","/EffeElleEventi/_astro/inter-all-200-normal.34e907e6.woff","/EffeElleEventi/_astro/inter-all-800-normal.ab496fbe.woff","/EffeElleEventi/_astro/inter-all-400-normal.f824029b.woff","/EffeElleEventi/_astro/404.cfbc3bdd.css","/EffeElleEventi/_astro/index.66891313.css","/EffeElleEventi/favicon.svg","/EffeElleEventi/global.css","/EffeElleEventi/_astro/OverlayMenu.c5aa6c27.js","/EffeElleEventi/_astro/client.c4e17359.js"]}), {
+	pageMap: pageMap,
+	renderers: renderers,
+	
+});
+const _args = {};
+const _exports = adapter.createExports(_manifest, _args);
+const handler = _exports['handler'];
+
+const _start = 'start';
+if(_start in adapter) {
+	adapter[_start](_manifest, _args);
+}
+
+export { handler, pageMap, renderers };

@@ -9,7 +9,7 @@ import netlify from "@astrojs/netlify/functions";
 // https://astro.build/config
 export default defineConfig({
   site: "https://giansake.github.io",
-  base: "/EffeElleEventi",
+  base: "/",
   integrations: [tailwind(), svelte(), image(), sitemap()],
   output: "server",
   adapter: netlify(),
