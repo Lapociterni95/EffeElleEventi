@@ -7,6 +7,6 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "https://effelle20.com",
-  base: "/EffeElleEventi",
+  base: "/",
   integrations: [tailwind(), svelte(), image(), sitemap()],
 });
