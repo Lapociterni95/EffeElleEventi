@@ -4,22 +4,13 @@ import placeholder from "../assets/placeholder.png";
 import Button from "./Button.astro";
 ---
 
-<section id="chi-siamo" class="pt-[calc(120px+2em)]">
+<section id="chi-siamo" class="pt-[calc(120px+2em)] text-client-blue">
   <div class="shadow-xl">
-    <div class="relative">
-      <Picture
-        src={placeholder}
-        widths={[400, 800, 1200]}
-        aspectRatio="16:9"
-        alt="descriptive text"
-        sizes="(max-width: 639px) 100%, (max-width: 1079px) 100%, 100%"
-      />
-      <h2 class="absolute top-8 left-8 text-4xl text-white z-[1] font-bold">
+    <div class="bg-client-beige p-8 sm:p-20 flex flex-col gap-y-12">
+      <h2 class="text-4xl z-[1] font-bold">
         Chi siamo <br />
         <span class="font-light">Who we are</span>
       </h2>
-    </div>
-    <div class="bg-client-beige p-8 sm:p-20">
       <p class="text-xl sm:text-2xl">
         EFFE ELLE E20 è una Agenzia di produzione eventi aziendali che offre una
         gamma completa di servizi e si impegna a creare eventi indimenticabili
@@ -27,7 +18,7 @@ import Button from "./Button.astro";
         derivante da anni di esperienza all'ispirazione e all'ingegno; questo ci
         permette di trasformare le location per regalare ai tuoi ospiti
         un'esperienza davvero unica. Contattaci e inizieremo subito a lavorare
-        insieme per organizzare l'evento perfetto per te.
+        insieme per organizzare l'evento perfetto per te
       </p>
       <div class="mt-8">
         <Button text="Conosciamoci meglio" />
