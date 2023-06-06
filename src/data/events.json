@@ -1,45 +1,53 @@
 {
-    "title": "I nostri eventi",
-    "events":[
-        {
-            "date": "19/06/2022 to 24/06/2022",
-            "location": "Perugia",
-            "title": "13th Torino Workshop on AGB stars",
-            "description": "Il congresso PharmaTech 2023 si focalizza sulle ultime innovazioni tecnologiche utilizzate per la ricerca e lo sviluppo di nuovi farmaci. Durante l'evento, esperti del settore condivideranno i loro studi e ricerche sulle nuove tecnologie applicate alla sintesi, formulazione e produzione di farmaci, nonché sui metodi di analisi dei dati e modellizzazione per lo sviluppo di farmaci personalizzati e innovativi.",
-            "btn_label": "Vai al sito dell'evento",
-            "btn_link": "https://en.wikipedia.org/wiki/New_Year%27s_Day"
-        },
-        {
-            "date": "02/07/2022 to 08/07/2022",
-            "location": "La Valle di Assisi Resort, Assisi",
-            "title": "14TH International conference on plant pathogenic bacteria",
-            "description": "",
-            "btn_label": "Vai al sito dell'evento",
-            "btn_link": "https://en.wikipedia.org/wiki/New_Year%27s_Day"
-        },
-        {
-            "date": "05/07/2022 to 08/07/2022",
-            "location": "Politecnico di Bari.",
-            "title": "22ND international conference on Web engineering (ICWE)",
-            "description": "Il congresso PharmaTech 2023 si focalizza sulle ultime innovazioni tecnologiche utilizzate per la ricerca e lo sviluppo di nuovi farmaci. Durante l'evento, esperti del settore condivideranno i loro studi e ricerche sulle nuove tecnologie applicate alla sintesi, formulazione e produzione di farmaci, nonché sui metodi di analisi dei dati e modellizzazione per lo sviluppo di farmaci personalizzati e innovativi.",
-            "btn_label": "Vai al sito dell'evento",
-            "btn_link": "https://en.wikipedia.org/wiki/New_Year%27s_Day"
-        },
-        {
-            "date": "13/09/2022 to 17/09/2022",
-            "location": "VIRTUAL",
-            "title": "Diagrams 2022",
-            "description": "Il congresso PharmaTech 2023 si focalizza sulle ultime innovazioni tecnologiche utilizzate per la ricerca e lo sviluppo di nuovi farmaci. Durante l'evento, esperti del settore condivideranno i loro studi e ricerche sulle nuove tecnologie applicate alla sintesi, formulazione e produzione di farmaci, nonché sui metodi di analisi dei dati e modellizzazione per lo sviluppo di farmaci personalizzati e innovativi.",
-            "btn_label": "Vai al sito dell'evento",
-            "btn_link": "https://en.wikipedia.org/wiki/New_Year%27s_Day"
-        },
-        {
-            "date": "16/01/2023 to 17/01/2023",
-            "location": "Bressanone",
-            "title": "GTTI- MMSP Thematic Meeting 2023 on Multimedia Signal Processing",
-            "description": "Il congresso PharmaTech 2023 si focalizza sulle ultime innovazioni tecnologiche utilizzate per la ricerca e lo sviluppo di nuovi farmaci. Durante l'evento, esperti del settore condivideranno i loro studi e ricerche sulle nuove tecnologie applicate alla sintesi, formulazione e produzione di farmaci, nonché sui metodi di analisi dei dati e modellizzazione per lo sviluppo di farmaci personalizzati e innovativi.",
-            "btn_label": "Vai al sito dell'evento",
-            "btn_link": "https://en.wikipedia.org/wiki/New_Year%27s_Day"
-        }
-    ]
+  "title": "I nostri eventi",
+  "events": [
+    {
+      "date": "19/06/2022 to 24/06/2022",
+      "location": "Perugia",
+      "title": "13th Torino Workshop on AGB stars",
+      "description": "Il congresso PharmaTech 2023 si focalizza sulle ultime innovazioni tecnologiche utilizzate per la ricerca e lo sviluppo di nuovi farmaci. Durante l'evento, esperti del settore condivideranno i loro studi e ricerche sulle nuove tecnologie applicate alla sintesi, formulazione e produzione di farmaci, nonché sui metodi di analisi dei dati e modellizzazione per lo sviluppo di farmaci personalizzati e innovativi.",
+      "btn_label": "Vai al sito dell'evento",
+      "btn_link": "https://agenda.infn.it/event/25948/"
+    },
+    {
+      "date": "02/07/2022 to 08/07/2022",
+      "location": "La Valle di Assisi Resort, Assisi",
+      "title": "14TH International conference on plant pathogenic bacteria",
+      "description": "",
+      "btn_label": "Vai al sito dell'evento",
+      "btn_link": "https://www.icppb2020.it/"
+    },
+    {
+      "date": "05/07/2022 to 08/07/2022",
+      "location": "Politecnico di Bari.",
+      "title": "22ND international conference on Web engineering (ICWE)",
+      "description": "Il congresso PharmaTech 2023 si focalizza sulle ultime innovazioni tecnologiche utilizzate per la ricerca e lo sviluppo di nuovi farmaci. Durante l'evento, esperti del settore condivideranno i loro studi e ricerche sulle nuove tecnologie applicate alla sintesi, formulazione e produzione di farmaci, nonché sui metodi di analisi dei dati e modellizzazione per lo sviluppo di farmaci personalizzati e innovativi.",
+      "btn_label": "Vai al sito dell'evento",
+      "btn_link": "https://icwe2022.webengineering.org/"
+    },
+    {
+      "date": "13/09/2022 to 17/09/2022",
+      "location": "VIRTUAL",
+      "title": "Diagrams 2022",
+      "description": "Il congresso PharmaTech 2023 si focalizza sulle ultime innovazioni tecnologiche utilizzate per la ricerca e lo sviluppo di nuovi farmaci. Durante l'evento, esperti del settore condivideranno i loro studi e ricerche sulle nuove tecnologie applicate alla sintesi, formulazione e produzione di farmaci, nonché sui metodi di analisi dei dati e modellizzazione per lo sviluppo di farmaci personalizzati e innovativi.",
+      "btn_label": "Vai al sito dell'evento",
+      "btn_link": "/"
+    },
+    {
+      "date": "16/01/2023 to 17/01/2023",
+      "location": "Bressanone",
+      "title": "GTTI- MMSP Thematic Meeting 2023 on Multimedia Signal Processing",
+      "description": "Il congresso PharmaTech 2023 si focalizza sulle ultime innovazioni tecnologiche utilizzate per la ricerca e lo sviluppo di nuovi farmaci. Durante l'evento, esperti del settore condivideranno i loro studi e ricerche sulle nuove tecnologie applicate alla sintesi, formulazione e produzione di farmaci, nonché sui metodi di analisi dei dati e modellizzazione per lo sviluppo di farmaci personalizzati e innovativi.",
+      "btn_label": "Vai al sito dell'evento",
+      "btn_link": "https://sites.google.com/view/gtti-mmsp-2022"
+    },
+    {
+      "date": "29/06/2023 to 30/06/2023",
+      "location": "Pisa",
+      "title": "Ital-IA Italia Intelligenza Artificiale - Terzo Convegno Nazionale",
+      "description": "Ital-IA è il terzo Convegno Nazionale CINI sull'Intelligenza Artificiale, organizzato per sviluppare obiettivi comuni tra istituzioni pubbliche, industria italiana e la ricerca scientifica delle università e dei centri di ricerca nazionali. Ital-IA ha l'ambizione di 'fare rete nazionale' tra tutte le azioni che si stanno disegnando in questi mesi in Italia per cogliere le potenzialità di sviluppo legate alle tecnologie dell'Intelligenza Artificiale.",
+      "btn_label": "Vai al sito dell'evento",
+      "btn_link": "https://www.ital-ia2023.it/"
+    }
+  ]
 }
